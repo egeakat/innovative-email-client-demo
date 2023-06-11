@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+	<head>
+		<script src="assets/js/color-modes.js"></script>
+
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" href="images/hacettepe_logo.png" type="image/x-icon">
+		<title>Innovative E-mail Client</title>
+
+		<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+		<style>
+			.bd-placeholder-img {
+				font-size: 1.125rem;
+				text-anchor: middle;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				user-select: none;
+			}
+
+			@media (min-width: 768px) {
+				.bd-placeholder-img-lg {
+					font-size: 3.5rem;
+				}
+			}
+
+			.b-example-divider {
+				width: 100%;
+				height: 3rem;
+				background-color: rgba(0, 0, 0, 0.1);
+				border: solid rgba(0, 0, 0, 0.15);
+				border-width: 1px 0;
+				box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+					inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+			}
+
+			.b-example-vr {
+				flex-shrink: 0;
+				width: 1.5rem;
+				height: 100vh;
+			}
+
+			.bi {
+				vertical-align: -0.125em;
+				fill: currentColor;
+			}
+
+			.nav-scroller {
+				position: relative;
+				z-index: 2;
+				height: 2.75rem;
+				overflow-y: hidden;
+			}
+
+			.nav-scroller .nav {
+				display: flex;
+				flex-wrap: nowrap;
+				padding-bottom: 1rem;
+				margin-top: -1px;
+				overflow-x: auto;
+				text-align: center;
+				white-space: nowrap;
+				-webkit-overflow-scrolling: touch;
+			}
+
+			.btn-bd-primary {
+				--bd-violet-bg: #712cf9;
+				--bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+				--bs-btn-font-weight: 600;
+				--bs-btn-color: var(--bs-white);
+				--bs-btn-bg: var(--bd-violet-bg);
+				--bs-btn-border-color: var(--bd-violet-bg);
+				--bs-btn-hover-color: var(--bs-white);
+				--bs-btn-hover-bg: #6528e0;
+				--bs-btn-hover-border-color: #6528e0;
+				--bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+				--bs-btn-active-color: var(--bs-btn-hover-color);
+				--bs-btn-active-bg: #5a23c8;
+				--bs-btn-active-border-color: #5a23c8;
+			}
+			.bd-mode-toggle {
+				z-index: 1500;
+			}
+		</style>
+	</head>
+	<body>
+		<header data-bs-theme="dark">
+			<div class="collapse text-bg-dark" id="navbarHeader">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-md-7 py-4">
+							<h4>About</h4>
+							<p class="text-body-secondary">
+								Innovative E-mail Client is a project that takes the e-mail
+								experience to a different level
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="navbar navbar-dark bg-dark shadow-sm">
+				<div class="container">
+					<a href="#" class="navbar-brand d-flex align-items-center">
+						<strong>Innovative E-mail Client</strong>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarHeader"
+						aria-controls="navbarHeader"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="py-5 text-center container">
+				<div class="row py-lg-5">
+					<div class="col-lg-6 col-md-8 mx-auto">
+						<h1 class="fw-light">Innovative E-mail Client</h1>
+						<p class="lead text-body-secondary">
+							Innovative E-mail Client is an e-mail client that brings a
+							different perspective to the e-mail experience. As it allows you
+							to have features of a regular e-mail client, it also allows for a
+							timeline experience which helps you get better insights on your
+							conversations with other people
+							<br />
+							<br />
+							Innovative E-mail Client is a stateless app consisting of a
+							React.js frontend and an Express.js backend. It uses Google's
+							Gmail API to give you the e-mail experience
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<div class="album py-5 bg-body-tertiary">
+				<div class="container">
+					<div class="row mb-5">
+						<h2 class="text-center">Features</h2>
+						<p class="text-center">
+							You can open the images in new tab to get a closer look
+						</p>
+					</div>
+					<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+						<div class="col">
+							<div class="card shadow-sm">
+								<img
+									class="bd-placeholder-img card-img-top"
+									width="100%"
+									height="225"
+									role="img"
+									aria-label="Placeholder: Thumbnail"
+									preserveAspectRatio="xMidYMid slice"
+									focusable="false"
+									src="./images/innovative.png"
+								/>
+
+								<div class="card-body">
+									<p class="card-text">
+                                        <h3>Innovative timeline feature</h3>
+										Innovative timeline feature allows you to track your threads
+										and your thread statistics.
+									</p>
+								
+								</div>
+							</div>
+						</div>
+				
+                        <div class="col">
+							<div class="card shadow-sm">
+								<img
+									class="bd-placeholder-img card-img-top"
+									width="100%"
+									height="225"
+									role="img"
+									aria-label="Placeholder: Thumbnail"
+									preserveAspectRatio="xMidYMid slice"
+									focusable="false"
+									src="./images/deletion.png"
+								/>
+
+								<div class="card-body">
+									<p class="card-text">
+                                        <h3>Delete messages</h3>
+										You can delete your messages
+									</p>
+								
+								</div>
+							</div>
+						</div>
+
+                        <div class="col">
+							<div class="card shadow-sm">
+								<img
+									class="bd-placeholder-img card-img-top"
+									width="100%"
+									height="225"
+									role="img"
+									aria-label="Placeholder: Thumbnail"
+									preserveAspectRatio="xMidYMid slice"
+									focusable="false"
+									src="./images/emailComposing.png"
+								/>
+
+								<div class="card-body">
+									<p class="card-text">
+                                        <h3>E-mail composing</h3>
+										You can compose new e mails and add an html formatted body with the latest rich text editor
+									</p>
+								
+								</div>
+							</div>
+						</div>
+
+                        
+                        <div class="col">
+							<div class="card shadow-sm">
+								<img
+									class="bd-placeholder-img card-img-top"
+									width="100%"
+									height="225"
+									role="img"
+									aria-label="Placeholder: Thumbnail"
+									preserveAspectRatio="xMidYMid slice"
+									focusable="false"
+									src="./images/emailViewingHTML.png"
+								/>
+
+								<div class="card-body">
+									<p class="card-text">
+                                        <h3>E-mail viewing</h3>
+										You can view the e-mails you have received and our application also supports e-mails with an HTML body
+									</p>
+								
+								</div>
+							</div>
+						</div>
+
+                        <div class="col">
+							<div class="card shadow-sm">
+								<img
+									class="bd-placeholder-img card-img-top"
+									width="100%"
+									height="225"
+									role="img"
+									aria-label="Placeholder: Thumbnail"
+									preserveAspectRatio="xMidYMid slice"
+									focusable="false"
+									src="./images/labeledEmailFolders.png"
+								/>
+
+								<div class="card-body">
+									<p class="card-text">
+                                        <h3>Labeled E-mail Folders</h3>
+										You can access the information about your e-mail folders
+									</p>
+								
+								</div>
+							</div>
+						</div>
+
+                        
+                        <div class="col">
+							<div class="card shadow-sm">
+								<img
+									class="bd-placeholder-img card-img-top"
+									width="100%"
+									height="225"
+									role="img"
+									aria-label="Placeholder: Thumbnail"
+									preserveAspectRatio="xMidYMid slice"
+									focusable="false"
+									src="./images/favorite.png"
+								/>
+
+								<div class="card-body">
+									<p class="card-text">
+                                        <h3>Star e-mails</h3>
+										You can star your e-mails so you can access them faster
+									</p>
+								
+								</div>
+							</div>
+						</div>
+
+                                 
+                        <div class="col">
+							<div class="card shadow-sm">
+								<img
+									class="bd-placeholder-img card-img-top"
+									width="100%"
+									height="225"
+									role="img"
+									aria-label="Placeholder: Thumbnail"
+									preserveAspectRatio="xMidYMid slice"
+									focusable="false"
+									src="./images/googleLogin.png"
+								/>
+
+								<div class="card-body">
+									<p class="card-text">
+                                        <h3>Google Login</h3>
+										You can swiftly login to our application using the Gmail Consent Screen 
+									</p>
+								
+								</div>
+							</div>
+						</div>
+
+                        <div class="col">
+							<div class="card shadow-sm">
+								<img
+									class="bd-placeholder-img card-img-top"
+									width="100%"
+									height="225"
+									role="img"
+									aria-label="Placeholder: Thumbnail"
+									preserveAspectRatio="xMidYMid slice"
+									focusable="false"
+									src="./images/inbox.png"
+								/>
+
+								<div class="card-body">
+									<p class="card-text">
+                                        <h3>E-mail listing</h3>
+										You can list your e-mails and browse them as you wish
+									</p>
+								
+								</div>
+							</div>
+						</div>
+
+                        <div class="col">
+							<div class="card shadow-sm">
+								<img
+									class="bd-placeholder-img card-img-top"
+									width="100%"
+									height="225"
+									role="img"
+									aria-label="Placeholder: Thumbnail"
+									preserveAspectRatio="xMidYMid slice"
+									focusable="false"
+									src="./images/markAsRead.png"
+								/>
+
+								<div class="card-body">
+									<p class="card-text">
+                                        <h3>Mark As Read</h3>
+										Our application will automatically label an e-mail as read when you click on them
+									</p>
+								
+								</div>
+							</div>
+						</div>
+
+                        <div class="col">
+							<div class="card shadow-sm">
+								<img
+									class="bd-placeholder-img card-img-top"
+									width="100%"
+									height="225"
+									role="img"
+									aria-label="Placeholder: Thumbnail"
+									preserveAspectRatio="xMidYMid slice"
+									focusable="false"
+									src="./images/threadHistory.png"
+								/>
+
+								<div class="card-body">
+									<p class="card-text">
+                                        <h3>Thread History</h3>
+										You can view your thread history and read e-mails from the thread as you wish
+									</p>
+								
+								</div>
+							</div>
+						</div>
+
+                        <div class="col">
+							<div class="card shadow-sm">
+								<img
+									class="bd-placeholder-img card-img-top"
+									width="100%"
+									height="225"
+									role="img"
+									aria-label="Placeholder: Thumbnail"
+									preserveAspectRatio="xMidYMid slice"
+									focusable="false"
+									src="./images/replyingToThreads.png"
+								/>
+
+								<div class="card-body">
+									<p class="card-text">
+                                        <h3>Replying To E-mails From A Thread</h3>
+										In our application, you can reply to specific e-mails from a thread you're viewing
+									</p>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="text-body-secondary py-5">
+			<div class="container">
+				<p class="float-end mb-1">
+					<a href="#">Back to top</a>
+				</p>
+				<p class="mb-1">
+					Innovative E-mail Client is a project made by Ege Akat and Umur Kılıç as a graduating project for the course BBM480 at Hacettepe University
+				</p>
+				
+			</div>
+		</footer>
+		<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
